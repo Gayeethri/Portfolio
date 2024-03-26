@@ -26,7 +26,7 @@ const greeting = {
     "Passionate Computer Science Master's graduate, I'm diving into the world of coding and algorithms, eager to shape the future through technology."
   ),
   resumeLink:
-    "", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
