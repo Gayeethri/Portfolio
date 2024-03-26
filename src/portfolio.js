@@ -179,16 +179,14 @@ const workExperiences = {
       companylogo: require("./assets/images/cybervigilancellc_logo.jpeg"),
       date: "May 2023 – Aug 2023",
       descBullets: [
-            "Led end-to-end SDLC for three applications, using Java, Selenium, JMeter, and TestNG to revamp automation framework, reducing regression testing time by 50%, enhancing team productivity.",
-            "Enhanced UX by designing SPA using ReactJS, ES6, and React-Router, creating seamless navigation and improving user interaction.",
-            "Spearheaded performance testing initiatives with JMeter and Selenium, achieving 80% code coverage, implementing Docker and Kubernetes for deployment, and optimizing CI/CD pipelines with Jenkins.",
-            "Innovated API testing by adopting JMeter, automating post-testing tasks with Python, and integrating AWS DynamoDB and Document DB for MongoDB, quadrupling testing efficiency."
+            "Collaborated with a senior developer to meticulously optimize JavaScript, HTML, and CSS on the website front-end, which significantly contributed to a 25% increase in website traffic.",
+            "Achieved a 10% reduction in page load times by optimizing front-end assets through image compression and code minification, improving user experience and SEO ranking"
       ]
     },
     {
       role: "Software Developer",
       company: "Optum",
-      companylogo: require("./assets/images/Artha net logo.jpeg"),
+      companylogo: require("./assets/images/Optum.png"),
       date: "May 2020 – June 2022",
       descBullets: [
         "Spearheaded the design and implementation of 10+ complex systems and projects, collaborating seamlessly with IT and business teams, resulting in a 30% increase in operational efficiency.",
@@ -196,19 +194,14 @@ const workExperiences = {
         "Developed and deployed 15+ API, database programming, and micro-services solutions, integrating telemetry solutions and establishing CI/CD pipelines, enhancing system reliability by 40%.",
         "Ensured software quality by conducting rigorous validation processes, identifying, and rectifying defects pre-deployment, achieving a 95% defect-free deployment rate.",
         "Coordinated with business and IT stakeholders to deliver 20+ product features, aligning closely with business objectives and fostering a culture of innovation and continuous improvement. Created and updated non-technical and technical documentation for evolving products to ensure regulatory compliance."
-      role: "Software Developer",
-      date: "May 2019 – April 2020",
-      descBullets: [
-        "Contributed to the enhancement of JAVA backend systems, leveraging Spring MVC, Spring Boot, and Kafka technologies, resulting in a 20% improvement in system performance.",
-        "Gained hands-on experience in database management, CI/CD implementation, and Kafka integration, actively participating in 10+ projects across diverse domains."
       ]
     }
   ]
 },
 {
-      role: "Software Developer",
+      role: "Software Developer Intern",
       company: "Optum",
-      companylogo: require("./assets/images/Artha net logo.jpeg"),
+      companylogo: require("./assets/images/Optum.png"),
       date: "May 2019 – April 2020",
       descBullets: [
         "Contributed to the enhancement of JAVA backend systems, leveraging Spring MVC, Spring Boot, and Kafka technologies, resulting in a 20% improvement in system performance.",
