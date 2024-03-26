@@ -192,13 +192,9 @@ const workExperiences = {
         "Spearheaded the design and implementation of 10+ complex systems and projects, collaborating seamlessly with IT and business teams, resulting in a 30% increase in operational efficiency.",
          "Facilitated cross-divisional collaboration by actively engaging with 5+ enterprise architects in design and code reviews, leading to a 25% reduction in time-to-resolution for critical issues.",
         "Developed and deployed 15+ API, database programming, and micro-services solutions, integrating telemetry solutions and establishing CI/CD pipelines, enhancing system reliability by 40%.",
-        "Ensured software quality by conducting rigorous validation processes, identifying, and rectifying defects pre-deployment, achieving a 95% defect-free deployment rate.",
-        "Coordinated with business and IT stakeholders to deliver 20+ product features, aligning closely with business objectives and fostering a culture of innovation and continuous improvement. Created and updated non-technical and technical documentation for evolving products to ensure regulatory compliance."
       ]
-    }
-  ]
-},
-{
+    },
+    {
       role: "Software Developer Intern",
       company: "Optum",
       companylogo: require("./assets/images/Optum.png"),
@@ -210,8 +206,6 @@ const workExperiences = {
     }
   ]
 };
-
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -242,6 +236,7 @@ const projects = {
       //  you can add extra buttons here.
     ]
     },
+    
     {
       image: require("./assets/images/stackoverflow logo.png"),
     projectName: "Stack Overflow",
@@ -316,67 +311,63 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "ServiceNow System Administrator",
-      subtitle:
-        "Proficient in managing and optimizing ServiceNow platforms, ensuring seamless workflow automation and effective IT service management. Skilled in configuring, customizing, and maintaining ServiceNow instances to meet organizational needs and enhance operational efficiency.",
-      image: require("./assets/images/servicenow.jpeg"),
-      footerLink: [
-        {
-          name: "View my Certification",
-          url: "https://drive.google.com/file/d/1RSOtXyWgqLw5gcW2grDt3OYPxsixYM4F/view?usp=sharing"
-        }
-      ]
+      subtitle: (
+           <div>
+            <p>Proficient in managing and optimizing ServiceNow platforms, ensuring seamless workflow automation and effective IT service management. Skilled in configuring, customizing, and maintaining ServiceNow instances to meet organizational needs and enhance operational efficiency.</p> 
+            <p><b><a href ="https://drive.google.com/file/d/1RSOtXyWgqLw5gcW2grDt3OYPxsixYM4F/view?usp=sharing" target="_blank" rel="noreferrer">View my Certificate</a></b></p>
+          </div>
+      ),
+      image: require("./assets/images/servicenow.jpeg")
     },
     {
       title: "Introduction to MongoDB",
-      subtitle:
-        "Utilized MongoDB's data model for efficient data import, mastering CRUD operations and the Aggregation Framework. Employed Atlas and MongoDB Compass to visualize schemas and manage databases effectively. Leveraged real-world scenarios to enhance skills in data analytics and application development, ensuring practical solutions tailored to business requirements.",
-      image: require("./assets/images/mongodb logo.png"),
-      footerLink: [
-        {
-          name: "View my Certification",
-          url: "https://coursera.org/share/6aa0fd9873e56d7f932a03503a243ace" 
-        }
-      ]
+      subtitle: (
+           <div>
+            <p>Utilized MongoDB's data model for efficient data import, mastering CRUD operations and the Aggregation Framework. Employed Atlas and MongoDB Compass to visualize schemas and manage databases effectively. Leveraged real-world scenarios to enhance skills in data analytics and application development, ensuring practical solutions tailored to business requirements.</p> 
+            <p><b><a href ="https://coursera.org/share/6aa0fd9873e56d7f932a03503a243ace" target="_blank" rel="noreferrer">View my Certificate</a></b></p>
+          </div>
+      ),
+      image: require("./assets/images/mongodb logo.png")
     },
     {
       title: "Aviatrix Cloud Certified Engineer",
-      subtitle: "Multi-Cloud Network Associate certification validates expertise in designing, implementing, and managing multi-cloud network architectures. Demonstrates proficiency in leveraging Aviatrix technologies for seamless connectivity and optimization across diverse cloud environments.",
-      image: require("./assets/images/aviatrix_logo.png"),
-      footerLink: [
-        {name: "View my Certification", url: "https://drive.google.com/file/d/1JLgvKby7c-LyOAhc_d9zApbMQOGnUati/view?usp=sharing"},
-      ]
+      subtitle: (
+           <div>
+            <p>Multi-Cloud Network Associate certification validates expertise in designing, implementing, and managing multi-cloud network architectures. Demonstrates proficiency in leveraging Aviatrix technologies for seamless connectivity and optimization across diverse cloud environments.</p> 
+            <p><b><a href ="https://drive.google.com/file/d/1JLgvKby7c-LyOAhc_d9zApbMQOGnUati/view?usp=sharing" target="_blank" rel="noreferrer">View my Certificate</a></b></p>
+          </div>
+      ),
+      image: require("./assets/images/aviatrix_logo.png")
     },
     {
-      title: "IBM Data Science",
-      subtitle: "In this Professional Certificate learners developed and honed handson skills in Data Science and Machine Learning. Learners started with an orientation of Data Science and its Methodology, became familiar and used a variety of data science tools, learned Python and SQL, performed Data Visualization and Analysis, and created Machine Learning models. In the process they completed several labs and assignments on the cloud including a Capstone Project at the end to apply and demonstrate their knowledge and skills.",
-      image: require("./assets/images/IBM_logo_in .jpeg"),
-      footerLink: [
-        {name: "View my Certification", url:"https://www.coursera.org/account/accomplishments/specialization/certificate/GBYETKVSKYZD"},
-      ]
+      title: "AIBM Data Science",
+      subtitle: (
+           <div>
+            <p>In this Professional Certificate learners developed and honed handson skills in Data Science and Machine Learning. Learners started with an orientation of Data Science and its Methodology, became familiar and used a variety of data science tools, learned Python and SQL, performed Data Visualization and Analysis, and created Machine Learning models. In the process they completed several labs and assignments on the cloud including a Capstone Project at the end to apply and demonstrate their knowledge and skills.</p> 
+            <p><b><a href ="https://www.coursera.org/account/accomplishments/specialization/certificate/GBYETKVSKYZD" target="_blank" rel="noreferrer">View my Certificate</a></b></p>
+          </div>
+      ),
+      image: require("./assets/images/IBM_logo_in .jpeg")
     },
     {
       title: "Google IT Support",
-      subtitle:
-        "Achieved proficiency through Google IT Support Professional Certificate, mastering essential skills in troubleshooting, networking, system administration, and security. Equipped with hands-on experience and practice-based assessments, I'm primed for entry-level IT support roles, bringing a blend of technical expertise and customer service acumen to the table.",
-      image: require("./assets/images/google logo.png"),
-      footerLink: [
-        {
-          name: "View my Certification",
-          url: "https://coursera.org/share/6aa0fd9873e56d7f932a03503a243ace" 
-        }
-      ]
+      subtitle: (
+           <div>
+            <p>Achieved proficiency through Google IT Support Professional Certificate, mastering essential skills in troubleshooting, networking, system administration, and security. Equipped with hands-on experience and practice-based assessments, I'm primed for entry-level IT support roles, bringing a blend of technical expertise and customer service acumen to the table.</p> 
+            <p><b><a href ="https://www.coursera.org/account/accomplishments/certificate/XLG6BCRA82S7" target="_blank" rel="noreferrer">View my Certificate</a></b></p>
+          </div>
+      ),
+      image: require("./assets/images/google logo.png")
     },
     {
       title: "Introduction to HTML5",
-      subtitle:
-        "Mastered the fundamentals of HTML5 through specialized training, gaining comprehensive knowledge of its syntax, structure, and features. Certified in HTML5, equipped with the skills to create dynamic and interactive web content, ensuring a solid foundation in modern web development.",
-      image: require("./assets/images/MICHIGAN.png"),
-      footerLink: [
-        {
-          name: "View my Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/46FRZ3FSMFY2" 
-        }
-      ]
+      subtitle: (
+           <div>
+            <p>Mastered the fundamentals of HTML5 through specialized training, gaining comprehensive knowledge of its syntax, structure, and features. Certified in HTML5, equipped with the skills to create dynamic and interactive web content, ensuring a solid foundation in modern web development.</p> 
+            <p><b><a href ="https://www.coursera.org/account/accomplishments/certificate/46FRZ3FSMFY2" target="_blank" rel="noreferrer">View my Certificate</a></b></p>
+          </div>
+      ),
+      image: require("./assets/images/MICHIGAN.png")
     },
 
   ],
