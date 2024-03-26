@@ -189,17 +189,35 @@ const workExperiences = {
       role: "Software Developer",
       company: "Optum",
       companylogo: require("./assets/images/Artha net logo.jpeg"),
-      date: "June 2019 – June 2022",
+      date: "May 2020 – June 2022",
       descBullets: [
         "Spearheaded the design and implementation of 10+ complex systems and projects, collaborating seamlessly with IT and business teams, resulting in a 30% increase in operational efficiency.",
          "Facilitated cross-divisional collaboration by actively engaging with 5+ enterprise architects in design and code reviews, leading to a 25% reduction in time-to-resolution for critical issues.",
         "Developed and deployed 15+ API, database programming, and micro-services solutions, integrating telemetry solutions and establishing CI/CD pipelines, enhancing system reliability by 40%.",
         "Ensured software quality by conducting rigorous validation processes, identifying, and rectifying defects pre-deployment, achieving a 95% defect-free deployment rate.",
         "Coordinated with business and IT stakeholders to deliver 20+ product features, aligning closely with business objectives and fostering a culture of innovation and continuous improvement. Created and updated non-technical and technical documentation for evolving products to ensure regulatory compliance."
+      role: "Software Developer",
+      date: "May 2019 – April 2020",
+      descBullets: [
+        "Contributed to the enhancement of JAVA backend systems, leveraging Spring MVC, Spring Boot, and Kafka technologies, resulting in a 20% improvement in system performance.",
+        "Gained hands-on experience in database management, CI/CD implementation, and Kafka integration, actively participating in 10+ projects across diverse domains."
+      ]
+    }
+  ]
+},
+{
+      role: "Software Developer",
+      company: "Optum",
+      companylogo: require("./assets/images/Artha net logo.jpeg"),
+      date: "May 2019 – April 2020",
+      descBullets: [
+        "Contributed to the enhancement of JAVA backend systems, leveraging Spring MVC, Spring Boot, and Kafka technologies, resulting in a 20% improvement in system performance.",
+        "Gained hands-on experience in database management, CI/CD implementation, and Kafka integration, actively participating in 10+ projects across diverse domains."
       ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
