@@ -164,13 +164,11 @@ const workExperiences = {
       role: "Student Assistant",
       company: "University at Buffalo",
       companylogo: require("./assets/images/bulls.jpeg"),
-      date: "Jan 2023 – Dec 2023",
+      date: "Sep 2022 – Dec 2023",
       descBullets: [
-        "Utilized HTML, CSS, and JS to enhance the website's UI, including the Notebook Viewer for easy access to Poet Marianne Moore's works.",
-         "Employed XSLT, XQuery, and XPath for data manipulation and organization of Marianne Moore's works.",
-         "Streamlined data organization, resulting in a 20% reduction in processing time and improved data accessibility.",
-        "Applied Python for backend development and automation, Implemented OCR tools for digitization of Moore's works.",
-         "Utilized Timeline JS for creating interactive timelines on the website."
+        "Transformed website functionality by enhancing UI with JS(ReactJS), streamlining data manipulation using XSLT, XQuery, and XPath .",
+         "Utilized machine learning models for OCR (Optical Character Recognition) recognition, developed in Python, to digitize Marianne Moore's works.",
+         
       ]
     },
     {
@@ -187,21 +185,19 @@ const workExperiences = {
       role: "Software Developer",
       company: "Optum",
       companylogo: require("./assets/images/Optum.png"),
-      date: "May 2020 – June 2022",
+      date: "May 2019 – June 2022",
       descBullets: [
-        "Spearheaded the design and implementation of 10+ complex systems and projects, collaborating seamlessly with IT and business teams, resulting in a 30% increase in operational efficiency.",
-         "Facilitated cross-divisional collaboration by actively engaging with 5+ enterprise architects in design and code reviews, leading to a 25% reduction in time-to-resolution for critical issues.",
-        "Developed and deployed 15+ API, database programming, and micro-services solutions, integrating telemetry solutions and establishing CI/CD pipelines, enhancing system reliability by 40%.",
-      ]
-    },
+        "Developed over 20 features for the Enhanced Payment Integrity Compass product.",
+         "Upgraded the calculation engine to handle complex payer contracts and achieve 90% accuracy in calculating healthcare claims reimbursement.",
+        
     {
       role: "Software Developer Intern",
       company: "Optum",
       companylogo: require("./assets/images/Optum.png"),
-      date: "May 2019 – April 2020",
+      date: "May 2018 – April 2019",
       descBullets: [
-        "Contributed to the enhancement of JAVA backend systems, leveraging Spring MVC, Spring Boot, and Kafka technologies, resulting in a 20% improvement in system performance.",
-        "Gained hands-on experience in database management, CI/CD implementation, and Kafka integration, actively participating in 10+ projects across diverse domains."
+        "Involved in requirements gathering, analysis, design, development, and unit testing of applications.",
+        "Proficient in deploying the application to AWS EBS, monitoring logs with AWS CloudWatch, testing application performance with JMeter, and ensuring 75% efficiency."
       ]
     }
   ]
