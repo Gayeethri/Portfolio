@@ -189,6 +189,8 @@ const workExperiences = {
       descBullets: [
         "Developed over 20 features for the Enhanced Payment Integrity Compass product.",
          "Upgraded the calculation engine to handle complex payer contracts and achieve 90% accuracy in calculating healthcare claims reimbursement.",
+      ]
+    }
         
     {
       role: "Software Developer Intern",
