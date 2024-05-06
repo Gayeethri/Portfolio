@@ -27,7 +27,7 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ek7D1pwdRu3MRbdoh2OQo85m1d4mtjeq/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: False // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -198,6 +198,7 @@ const workExperiences = {
       descBullets: [
         "Involved in requirements gathering, analysis, design, development, and unit testing of applications.",
         "Proficient in deploying the application to AWS EBS, monitoring logs with AWS CloudWatch, testing application performance with JMeter, and ensuring 75% efficiency."
+        }
       ]
     }
   ]
