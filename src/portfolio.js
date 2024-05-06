@@ -177,8 +177,9 @@ const workExperiences = {
       companylogo: require("./assets/images/cybervigilancellc_logo.jpeg"),
       date: "May 2023 – Aug 2023",
       descBullets: [
-            "Collaborated with a senior developer to meticulously optimize JavaScript, HTML, and CSS on the website front-end, which significantly contributed to a 25% increase in website traffic.",
-            "Achieved a 10% reduction in page load times by optimizing front-end assets through image compression and code minification, improving user experience and SEO ranking"
+            "Developed multiple REST APIs with Spring Boot, MongoDB, and FHIR APIs.",
+            "Extracted, transformed, and loaded big data into MongoDB from various source databases (SQL, Oracle, Kafka Topics) using Apache Spark and Scala."
+            "Engaged in API performance and load testing using Apache JMeter, Splunk, and Dynatrace"
       ]
     },
     {
@@ -217,7 +218,7 @@ const projects = {
   title: "Academic Projects",
   projects: [
     {
-      image: require("./assets/images/crop logo.jpeg"),
+      image: require("./assets/images/Hallucination.jpeg"),
       projectName: "Hallucination in Chat-bots",
       projectDesc: (
         <ul>
