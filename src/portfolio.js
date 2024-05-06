@@ -198,7 +198,6 @@ const workExperiences = {
       descBullets: [
         "Involved in requirements gathering, analysis, design, development, and unit testing of applications.",
         "Proficient in deploying the application to AWS EBS, monitoring logs with AWS CloudWatch, testing application performance with JMeter, and ensuring 75% efficiency."
-        }
       ]
     }
   ]
