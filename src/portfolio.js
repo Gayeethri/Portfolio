@@ -233,6 +233,22 @@ const projects = {
       //  you can add extra buttons here.
     ]
     },
+    {
+      image: require("./assets/images/crop logo.jpeg"),
+      projectName: "Hallucination in Chat-bots",
+      projectDesc: (
+        <ul>
+          <li><b>Skills/Technologies Used: </b> Python, HTML, CSS, Javascript, git, NumPy, Pandas, matplotlib, PyTorch </li>
+          <li><b>Brief Description: </b>Investigated and addressed the issue of hallucinations in chatbot responses, fine-tuned the model for reduced hallucination, resulting in responses up to 82% hallucination-free, contributing to heightened chat-bot reliability. Formulated a robust transformer model built in RoBERTa for hallucination detection and VRM classification in chat-bot responses and achieved accuracy of 87.4%</li>
+        </ul>
+      ),
+      footerLink: [
+        {
+          name: "Visit Github Repo",
+          url: "https://github.com/Gayeethri/O-my-natural.git"
+        }
+      ]
+    },
     
     {
       image: require("./assets/images/stackoverflow logo.png"),
@@ -249,22 +265,6 @@ const projects = {
         url: "https://github.com/Gayeethri/Stackoverflow.git"
       }
     ]
-    },
-    {
-      image: require("./assets/images/crop logo.jpeg"),
-      projectName: "O-my-natural",
-      projectDesc: (
-        <ul>
-          <li><b>Skills/Technologies Used: </b> Python, HTML, CSS, Javascript, git, NumPy, Pandas, matplotlib, PyTorch </li>
-          <li><b>Brief Description: </b>Developed a website that utilizes machine learning models to recommend the best crops for a given soil type, provide fertilizer recommendations based on soil data and the type of crop being grown, and identify and treat plant diseases.</li>
-        </ul>
-      ),
-      footerLink: [
-        {
-          name: "Visit Github Repo",
-          url: "https://github.com/Gayeethri/O-my-natural.git"
-        }
-      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
