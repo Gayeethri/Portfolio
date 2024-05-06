@@ -45,7 +45,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Experienced software developer with 2+ years of hands-on expertise in creating innovative solutions. Skilled in application design, testing, and using data visualization tools. Proficient in Agile methodologies and various coding languages, dedicated to delivering effective solutions that meet business needs.",
+  subTitle: "Experienced software developer with 3+ years of hands-on expertise in creating innovative solutions. Skilled in application design, testing, and using data visualization tools. Proficient in Agile methodologies and various coding languages, dedicated to delivering effective solutions that meet business needs.",
   skills: [
   ],
 
