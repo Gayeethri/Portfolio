@@ -178,7 +178,7 @@ const workExperiences = {
       date: "May 2023 – Aug 2023",
       descBullets: [
             "Developed multiple REST APIs with Spring Boot, MongoDB, and FHIR APIs.",
-            "Extracted, transformed, and loaded big data into MongoDB from various source databases (SQL, Oracle, Kafka Topics) using Apache Spark and Scala."
+            "Extracted, transformed, and loaded big data into MongoDB from various source databases (SQL, Oracle, Kafka Topics) using Apache Spark and Scala.",
             "Engaged in API performance and load testing using Apache JMeter, Splunk, and Dynatrace"
       ]
     },
