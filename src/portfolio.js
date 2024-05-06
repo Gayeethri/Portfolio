@@ -217,6 +217,22 @@ const projects = {
   title: "Academic Projects",
   projects: [
     {
+      image: require("./assets/images/crop logo.jpeg"),
+      projectName: "Hallucination in Chat-bots",
+      projectDesc: (
+        <ul>
+          <li><b>Skills/Technologies Used: </b> Python, NLTK, ML Models, NumPy, Pandas </li>
+          <li><b>Brief Description: </b>Investigated and addressed the issue of hallucinations in chatbot responses, fine-tuned the model for reduced hallucination, resulting in responses up to 82% hallucination-free, contributing to heightened chat-bot reliability. Formulated a robust transformer model built in RoBERTa for hallucination detection and VRM classification in chat-bot responses and achieved accuracy of 87.4%</li>
+        </ul>
+      ),
+      footerLink: [
+        {
+          name: "Visit Github Repo",
+          url: "https://github.com/Gayeethri/O-my-natural.git"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/airport l.jpeg"),
     projectName: "Airport Mangement System",
     projectDesc: (
@@ -233,23 +249,6 @@ const projects = {
       //  you can add extra buttons here.
     ]
     },
-    {
-      image: require("./assets/images/crop logo.jpeg"),
-      projectName: "Hallucination in Chat-bots",
-      projectDesc: (
-        <ul>
-          <li><b>Skills/Technologies Used: </b> Python, HTML, CSS, Javascript, git, NumPy, Pandas, matplotlib, PyTorch </li>
-          <li><b>Brief Description: </b>Investigated and addressed the issue of hallucinations in chatbot responses, fine-tuned the model for reduced hallucination, resulting in responses up to 82% hallucination-free, contributing to heightened chat-bot reliability. Formulated a robust transformer model built in RoBERTa for hallucination detection and VRM classification in chat-bot responses and achieved accuracy of 87.4%</li>
-        </ul>
-      ),
-      footerLink: [
-        {
-          name: "Visit Github Repo",
-          url: "https://github.com/Gayeethri/O-my-natural.git"
-        }
-      ]
-    },
-    
     {
       image: require("./assets/images/stackoverflow logo.png"),
     projectName: "Stack Overflow",
