@@ -25,7 +25,6 @@ const greeting = {
   subTitle: emoji(
     "Passionate Computer Science Master's graduate, I'm diving into the world of coding and algorithms, eager to shape the future through technology."
   ),
-  resumeLink:
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
