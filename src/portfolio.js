@@ -116,7 +116,7 @@ const educationInfo = {
       schoolName: "University at Buffalo",
       logo: require("./assets/images/ub logo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "August 2022 - December 2023",
+      duration: "August 2022 - February 2024",
       desc: "CourseWork.",
       descBullets: [
         "Data Model Query language, Analysis of Algorithms, Data Intensive Computing, Machine learning, Natural language Processing",
@@ -127,6 +127,7 @@ const educationInfo = {
       schoolName: "K L University",
       logo: require("./assets/images/kl logo.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
+      duration: "June 2015 - June 2019",
       desc: "Took courses about Software Engineering, Object Oriented Programming, Operating Systems, ...",
     }
   ]
