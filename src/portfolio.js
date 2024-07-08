@@ -60,6 +60,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
       skillName: "C",
       fontAwesomeClassname: "fas fa-terminal"
     },
