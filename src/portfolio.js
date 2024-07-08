@@ -116,7 +116,7 @@ const educationInfo = {
       schoolName: "University at Buffalo",
       logo: require("./assets/images/ub logo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "August 2022 - February 2024",
+      duration: "August 2022 - January 2024",
       desc: "CourseWork.",
       descBullets: [
         "Data Model Query language, Analysis of Algorithms, Data Intensive Computing, Machine learning, Natural language Processing",
@@ -187,8 +187,8 @@ const workExperiences = {
       companylogo: require("./assets/images/Optum.png"),
       date: "May 2019 – June 2022",
       descBullets: [
-        "Developed over 20 features for the Enhanced Payment Integrity Compass product.",
-         "Upgraded the calculation engine to handle complex payer contracts and achieve 90% accuracy in calculating healthcare claims reimbursement.",
+        "Developed a robust file searching system for thousands of insurance vendors and efficient caching strategies for optimal search performance across millions of files.",
+         "Collaborated with UI/UX designers to translate mockups into fully functional interfaces, ensuring seamless integration of design elements.",
       ]
     },   
     {
@@ -197,8 +197,8 @@ const workExperiences = {
       companylogo: require("./assets/images/Optum.png"),
       date: "May 2018 – April 2019",
       descBullets: [
-        "Involved in requirements gathering, analysis, design, development, and unit testing of applications.",
-        "Proficient in deploying the application to AWS EBS, monitoring logs with AWS CloudWatch, testing application performance with JMeter, and ensuring 75% efficiency."
+        "Developed responsive healthcare portals, improving user accessibility and engagement metrics by 20%.",
+        "Enhanced backend performance, optimizing query efficiency, and reducing database response times by 30%, leading to improved application responsiveness."
       ]
     }
   ]
